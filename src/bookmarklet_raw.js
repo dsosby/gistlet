@@ -50,7 +50,7 @@
       }
 
       // Use rawgit.com to serve gists
-      gistUrl = file.raw_url.replace('gist.githubusercontent.com', 'cdn.rawgit.com');
+      gistUrl = file.raw_url.replace('gist.githubusercontent.com', 'rawgit.com');
       callback(gistUrl);
     });
   }
